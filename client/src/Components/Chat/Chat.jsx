@@ -16,7 +16,7 @@ function Chat() {
   const [users, setUsers] = useState("");
   const [messages, setMessages] = useState([]);
   const [message, setMessage] = useState("");
-  const endPoint = "localhost:3000";
+  const endPoint = "https://chatbuddy-2lhx.onrender.com";
   useEffect(() => {
     const { name, room } = queryString.parse(window.location.search);
 
